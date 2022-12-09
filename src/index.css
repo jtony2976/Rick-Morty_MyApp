@@ -5,9 +5,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://www.mundo-geo.es/uploads/s1/94/94/70/7/la-temperatura-en-el-espacio-es-realmente-fria.jpeg");
+  
+  /* Full height */
+  /*height: 100%; */
+  height:max-content; 
+  
+
+  /* Center and scale the image nicely */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

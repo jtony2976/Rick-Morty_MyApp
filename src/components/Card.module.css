@@ -1,0 +1,71 @@
+.containerGeneral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.card {
+  background-color: aqua;
+  border: solid blue;
+  width: 20em;
+  height: 30em;
+  border-radius: 2em;
+}
+
+
+@font-face {
+  font-family: paraNombre;
+  src: url(../assets/RubikDistressed-Regular.ttf);
+}
+
+@font-face {
+  font-family: paraGender;
+  src: url(../assets/NerkoOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: paraSpecie;
+  src: url(../assets/PatrickHand-Regular.ttf);
+}
+/* --------------------------------------- */
+
+.container1 {
+  display: flex;
+  justify-content:right;
+  padding: 3%;
+}
+
+.cardButton {
+  background-color: red;
+  color: white;
+  border-radius: 25%;
+  width: 15%;
+  height: 5%;
+  justify-content: center;
+  font-size: larger;
+}
+
+/* --------------------------------------- */
+
+.cardImage {
+  width: 19em;
+  height: 18em;
+}
+
+/* --------------------------------------- */
+
+.container3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  background-color:brown;
+  border-bottom-left-radius: 1.9em;
+  border-bottom-right-radius: 1.9em;
+  height: 13.5%
+}
+
+.divs3 {
+  color: beige;
+}

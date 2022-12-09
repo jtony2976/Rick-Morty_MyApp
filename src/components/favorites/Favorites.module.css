@@ -1,0 +1,19 @@
+.selector select{
+    display:inline-block;
+    justify-content:center;
+    margin: 10px;
+    border:2px solid #6bf032;
+    border-radius: 20px;
+    margin-left: 10px;
+    color:black solid;
+    background-color: #6bf032;
+    font-weight: bold;
+    width: 200px;
+    height:40px;
+    align-items: center;
+}
+
+.selector select:hover{
+    border-color: aliceblue;
+    cursor: pointer;
+}
